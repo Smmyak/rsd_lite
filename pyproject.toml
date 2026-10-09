@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "rsdehamba-lite"
 version = "0.1.0"
 description = "Runnable RSDehamba-inspired lightweight dehazing scaffold"
-requires-python = ">=3.10,<3.13"
+requires-python = ">=3.10,<3.14"
 dependencies = [
   "torch>=2.2",
   "torchvision>=0.17",

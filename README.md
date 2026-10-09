@@ -27,7 +27,7 @@ See `docs/access_checks.md` for details and caveats.
 
 ## Quick Start
 
-Use Python 3.10-3.12. Kaggle is recommended for the first real training run because this local workspace currently has Python 3.14 and no ML stack installed.
+Use Python 3.10-3.13. Kaggle is recommended for the first real training run because this local workspace currently has Python 3.14 and no ML stack installed.
 
 ```powershell
 python -m venv .venv

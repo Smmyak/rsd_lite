@@ -33,7 +33,7 @@ Other literature and dataset summaries also reference an older Dropbox `Haze1k.z
 
 ## Local Environment
 
-The local desktop check found Python `3.14.7` with no installed `torch`, `torchvision`, `PIL`, `numpy`, `pytest`, `kaggle`, or `mamba_ssm`. Because PyTorch support for brand-new Python versions can lag, use Kaggle or a Python `3.10-3.12` environment for training.
+The local desktop check found Python `3.14.7` with no installed `torch`, `torchvision`, `PIL`, `numpy`, `pytest`, `kaggle`, or `mamba_ssm`. Because PyTorch support for brand-new Python versions can lag, use Kaggle or a Python `3.10-3.13` environment for training.
 
 Action for the user:
 
