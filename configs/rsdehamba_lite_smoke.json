@@ -1,0 +1,19 @@
+{
+  "seed": 42,
+  "data_root": "/kaggle/input/satehaze1k",
+  "output_dir": "/kaggle/working/rsdehamba_lite_outputs",
+  "image_size": 128,
+  "batch_size": 2,
+  "num_workers": 2,
+  "epochs": 2,
+  "lr": 0.0002,
+  "min_lr": 0.000001,
+  "weight_decay": 0.0,
+  "base_dim": 24,
+  "depths": [1, 2, 2],
+  "use_mamba": false,
+  "subset_fraction": 0.05,
+  "val_fraction": 0.1,
+  "save_every": 1
+}
+

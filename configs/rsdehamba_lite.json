@@ -1,0 +1,19 @@
+{
+  "seed": 42,
+  "data_root": "data/SateHaze1K",
+  "output_dir": "outputs",
+  "image_size": 256,
+  "batch_size": 4,
+  "num_workers": 2,
+  "epochs": 50,
+  "lr": 0.0002,
+  "min_lr": 0.000001,
+  "weight_decay": 0.0,
+  "base_dim": 32,
+  "depths": [1, 2, 2],
+  "use_mamba": false,
+  "subset_fraction": 1.0,
+  "val_fraction": 0.1,
+  "save_every": 10
+}
+
