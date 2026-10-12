@@ -1,4 +1,4 @@
-# RSDehamba-Lite One-Week Project
+# RSDehamba-Lite 
 
 This repository is a practical, staged starting point for a lightweight RSDehamba-style remote sensing dehazing project. The target variant reduces the paper's VDB block schedule from `[2, 3, 3]` to `[1, 2, 2]` while preserving the broad U-Net, VDB, SSM-branch, and four-direction DSM ideas where the public paper gives enough detail.
 
