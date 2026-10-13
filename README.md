@@ -71,15 +71,6 @@ SateHaze1K/
 
 It also searches for aliases such as `input`, `target`, `GT`, `clean`, `fog`, and `haze`. Run the inspector first because Kaggle mirrors sometimes use different folder names.
 
-## One-Week Plan
-
-1. Day 1: Verify dataset access, inspect folder layout, run model tests.
-2. Day 2: Train on a tiny subset to validate the full loop.
-3. Day 3-4: Train the `[1,2,2]` variant at `256x256` patches.
-4. Day 5: Evaluate PSNR/SSIM by haze level and save sample outputs.
-5. Day 6: Compare parameter count and runtime against the paper's reported 1.80M baseline, without claiming exact reproduction.
-6. Day 7: Prepare report: motivation, method change, assumptions, results, limitations.
-
 ## Project Assumptions
 
 - The paper reports RSDehamba uses a three-level U-Net with VDB blocks `[2,3,3]`, patch size `256x256`, Adam, initial learning rate `2e-4`, cosine annealing to `1e-6`, and RGB PSNR/SSIM.
